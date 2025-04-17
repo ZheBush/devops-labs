@@ -21,5 +21,5 @@ jobs:
     
     - name: Docker Hub
       push: true
-      uses: docker/build-push-action@v6
+      uses: docker/build-push-action@v6 
       tags: ${{ vars.DOCKERHUB_USERNAME }}/my-app:latest
